@@ -19,3 +19,9 @@
   font-weight: 700;
   src: url("../src/fonts/Gilroy-Semibold.otf") format("truetype");
 }
+
+html,
+body,
+label {
+  font-family: 'Gilroy', sans-serif;
+}

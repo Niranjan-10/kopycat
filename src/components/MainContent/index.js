@@ -17,7 +17,12 @@ const MainContent = () => {
     <div>
       <div className="h-[520px] w-full">
         <div className="mt-[140px] flex flex-col justify-center items-center">
-          <p className="text-[100px]">Make one-step forward</p>
+          <h1
+            className="text-[100px] font-bold "
+            style={{ fontWeight: "bold" }}
+          >
+            Make one-step forward
+          </h1>
           <div className="mt-[32px] mb-[54px]  px-[255px]">
             <p className="text-center">
               Hundreds of end to end user journeys from the top grossing apps to
@@ -48,50 +53,58 @@ const MainContent = () => {
         </div>
         <div className="relative top-0 left-[37px]">
           <img src={SecondBox} alt="second box" />
-          <div className="absolute left-[20%] top-[50%] ">
-            <p className="text-2xl font-bold">Screenshots</p>
-          </div>
-          <div className="absolute left-[8%] top-[64%] ">
-            <div className="bg-[#FFCB45] px-[52px] py-[8px]">
-              <p>COMING SOON</p>
+          <Link to="/screen-shots">
+            <div className="absolute left-[20%] top-[50%] ">
+              <p className="text-2xl font-bold">Screenshots</p>
             </div>
-          </div>
+            <div className="absolute left-[8%] top-[64%] ">
+              <div className="bg-[#FFCB45] px-[52px] py-[8px]">
+                <p>COMING SOON</p>
+              </div>
+            </div>
+          </Link>
         </div>
         <div className="relative">
           <img src={ThirdBox} alt="third box" />
-          <div className="absolute left-[20%]  top-[50%]">
-            <p className="text-2xl font-bold">Daily Design</p>
-          </div>
-          <div className="absolute left-[8%] top-[64%] ">
-            <div className="bg-[#FF8744] px-[52px] py-[8px]">
-              <p>COMING SOON</p>
+          <Link to="/daily-design">
+            <div className="absolute left-[20%]  top-[50%]">
+              <p className="text-2xl font-bold">Daily Design</p>
             </div>
-          </div>
+            <div className="absolute left-[8%] top-[64%] ">
+              <div className="bg-[#FF8744] px-[52px] py-[8px]">
+                <p>COMING SOON</p>
+              </div>
+            </div>
+          </Link>
         </div>
         <div className="relative top-0 right-[37px]">
           <img src={ForthBox} alt="forth box" />
-          <div className="absolute right-[15%] top-[50%]">
-            <p className="text-2xl font-bold text-center">
-              UI Components
-              <br /> Handbook
-            </p>
-          </div>
-          <div className="absolute right-[8%] top-[74%] ">
-            <div className="bg-[#3F6FD9] px-[52px] py-[8px]">
-              <p className="text-white">COMING SOON</p>
+          <Link to="/ui-component">
+            <div className="absolute right-[15%] top-[50%]">
+              <p className="text-2xl font-bold text-center">
+                UI Components
+                <br /> Handbook
+              </p>
             </div>
-          </div>
+            <div className="absolute right-[8%] top-[74%] ">
+              <div className="bg-[#3F6FD9] px-[52px] py-[8px]">
+                <p className="text-white">COMING SOON</p>
+              </div>
+            </div>
+          </Link>
         </div>
         <div className="relative top-0  right-[110px]">
           <img src={FifthBox} alt="Fifth box" />
-          <div className="absolute right-[20%] top-[50%]">
-            <p className="text-2xl font-bold">Interactions</p>
-          </div>
-          <div className="absolute right-[7%] top-[64%] ">
-            <div className="bg-[#E5FE40] px-[52px] py-[8px]">
-              <p className="">COMING SOON</p>
+          <Link to="/interactions">
+            <div className="absolute right-[20%] top-[50%]">
+              <p className="text-2xl font-bold">Interactions</p>
             </div>
-          </div>
+            <div className="absolute right-[7%] top-[64%] ">
+              <div className="bg-[#E5FE40] px-[52px] py-[8px]">
+                <p className="">COMING SOON</p>
+              </div>
+            </div>
+          </Link>
         </div>
         {/* <div className="flex justify-center">
           <div className="group-38-LxtcUV flex flex-col ml-[50px]">

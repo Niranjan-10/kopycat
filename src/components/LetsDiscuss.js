@@ -9,7 +9,7 @@ const LetsDiscuss = () => {
         If you have a project in mind or you just want to chat, feel free to get
         in touch.{" "}
       </p>
-      <button className="bg-[#6F5CCB] border border-[#161616] px-[101px] py-[16px] mt-[24px] text-white">
+      <button className="bg-[#6F5CCB] border border-[#161616] px-[101px] py-[16px] mt-[48px] text-white">
         mafia@Kopycat.design
       </button>
       <p className="mt-[128px] mb-[110px]">or Let's grab a coffee!</p>
